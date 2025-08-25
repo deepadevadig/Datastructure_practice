@@ -1,12 +1,12 @@
+// Node.java
 public class Node {
     int data;
+    Node prev;
     Node next;
-    
-     public  Node(int data)
-    {
-        this.data = data;
-        this.next = null ;
-        System.out.println("New node has been created" +" " + this.data);
 
+    public Node(int data) {
+        this.data = data;
+        this.prev = null;
+        this.next = null;
     }
 }
